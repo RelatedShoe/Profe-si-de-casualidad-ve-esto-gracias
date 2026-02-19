@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="logo">English class</div>
+        <ul class="nav-links">
+            <li><a href="#">Why do i want to be this?</a></li>
+            <li><a href="#proyectos">projects</a></li>
+            <li><a href="#preguntas">Questions</a></li>
+        </ul>
+    </nav>
+   </header>
+
+   <main>
+    <section id="hero">
+        <h1>Why do i want to be sistem engineer</h1>
+        <p>I would really like to be able to share my ideas with other people using programming as a foundation to bring them to life :D</p>
+        
+    </section>
+    
+    <section id="proyectos">
+        <h2>My projects from 7 months ago (when I went to a programming course)</h2>
+        <div class="proyectos-grid">
+            <div class="proyectos-card">
+                
+           <img src="Decision Game.png" alt="">
+           <p><a href="https://github.com/RelatedShoe/Juego-de-deciciones"><h3>decision game</h3></a></p>
+           <p class="descripcion">A simple game where you have to answer questions correctly :D</p>
+           <p></p><a href="https://www.onlinegdb.com/online_python_compiler">Online Python Compiler</a></p></p>
+            </div>
+
+            <div class="proyectos-card">
+                
+           <img src="Shopping simulator.png" alt="">
+           <p><a href="https://github.com/RelatedShoe/Simulador-de-compras"><h3>Shopping simulator</h3></a></p>
+           <p class="descripcion">A shopping simulator where you can add and remove products, calculate the total, and even cancel whenever you want.</p>
+           <p></p><a href="https://www.onlinegdb.com/online_python_compiler">Online Python Compiler</a></p> </p>
+            </div>
+
+            <div class="proyectos-card">
+                
+           <img src="Calculator.png" alt="">
+           <p><a href="https://github.com/RelatedShoe/Calc-late-un-pizza-"><h3>Calculator</h3></a></p>
+           <p class="descripcion">A calculator with the basics</p>
+           <p></p><a href="https://www.onlinegdb.com/online_c++_compiler">Online C++ Compiler</a></p></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="preguntas">
+        <h1>Interactive questions</h1>
+        <form onsubmit="return false;">
+            <p>1. ¿Es 'cried' la forma correcta en pasado del verbo regular 'cry'?</p>
+            <input type="radio" name="r1" onclick="document.getElementById('m1').innerHTML='Correct!'"> yes
+            <input type="radio" name="r1" onclick="document.getElementById('m1').innerHTML='Incorrect'"> no
+            <b id="m1"></b>
+
+            <p>2. ¿El pasado del verbo irregular 'buy' (comprar) es 'buyed'?</p>
+            <input type="radio" name="r2" onclick="document.getElementById('m2').innerHTML='Incorrect'"> yes
+            <input type="radio" name="r2" onclick="document.getElementById('m2').innerHTML='Correct!'"> no
+            <b id="m2"></b>
+
+            <p>3. ¿Es 'saw' la forma correcta en pasado del verbo 'see'?</p>
+            <input type="radio" name="r3" onclick="document.getElementById('m3').innerHTML='Correct!'"> yes
+            <input type="radio" name="r3" onclick="document.getElementById('m3').innerHTML='Incorrect'"> no
+            <b id="m3"></b>
+
+            <p>4. ¿Se escribe 'runned' para decir el pasado del verbo 'run'?</p>
+            <input type="radio" name="r4" onclick="document.getElementById('m4').innerHTML='Incorrect'"> yes
+            <input type="radio" name="r4" onclick="document.getElementById('m4').innerHTML='Correct!'"> no
+            <b id="m4"></b>
+
+            <p>5. ¿Es 'stopped' la escritura correcta del pasado de 'stop' (duplicando la 'p')?</p>
+            <input type="radio" name="r5" onclick="document.getElementById('m5').innerHTML='Correct!'"> yes
+            <input type="radio" name="r5" onclick="document.getElementById('m5').innerHTML='Incorrect'"> no
+            <b id="m5"></b>
+ 
+            <br><br>
+    
+        </form>
+
+        
+    </section>
+
+    <footer>
+        <p>&copy; Thank you for participating and listening to my presentation about what I want to be</p>
+    </footer>
+
+   </main>
+</body>
+</html>

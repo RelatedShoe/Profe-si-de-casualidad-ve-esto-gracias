@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    box-shadow: 0 2px 5x rgba(0, 0, 0, 0.1);
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: brown;
+    background-color: rgb(255, 222, 173);
+    border: none;
+    padding: 1.3rem 2.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgba(145, 42, 42, 0.897);
+    font-size: 1.5rem;
+}
+
+#hero {
+    padding-top: 2rem;
+    min-height: 90vh;
+    background: linear-gradient(rgba(48, 15, 15, 0.705), rgba(48, 15, 15, 0.705)), url(sistema.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: antiquewhite;
+    padding: 0 1rem;
+}
+
+#hero h1 {
+    font-size: 3.3rem;
+    margin-bottom: 1rem;
+
+}
+
+#hero p {
+    font-size: 1.6rem;
+    color: bisque;
+}
+
+#proyectos {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#proyectos h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: rgb(250, 206, 150);
+    border: none;
+    padding: 0.5rem 1.3rem;
+    border-radius: 10px;
+    cursor: wait;
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.proyectos-card {
+    background-color: bisque;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5x rgba(94, 45, 45, 0.623);
+}
+
+#proyectos h2 {
+    color: rgb(155, 57, 32);
+}
+
+
+
+.proyectos-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.proyectos-card h3 {
+    color: crimson;
+}
+
+.proyectos-card a {
+    padding: 1rem;
+    color: crimson;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.proyectos-card p {
+    color: rgb(179, 63, 63);
+    font-weight: bold;
+    padding: 0 0.7rem;
+    
+}
+
+#preguntas {
+    text-size-adjust: 3rem;
+    padding-top: 2rem;
+    min-height: 90vh;
+    background: linear-gradient(rgba(250, 218, 176, 0.322), rgba(250, 218, 176, 0.322)), url(Proyectos\ ideas.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+
+#preguntas h1 {
+    font-size: 5rem;
+    color: blanchedalmond;
+    lighting-color: brown;
+    cursor: pointer;
+}
+
+#preguntas p {
+    color: rgb(241, 210, 162);
+    lighting-color: rgb(114, 26, 26);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+form {
+    cursor: pointer;
+    color: darksalmon;
+    font-size: 2rem;
+}
+
+footer {
+    font-size: 2rem;
+    color: brown;
+    background-color: rgb(253, 228, 220);
+    cursor: pointer;
+    
+}
